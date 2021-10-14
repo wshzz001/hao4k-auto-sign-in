@@ -41,6 +41,7 @@ def run(form_data):
 
     login_resp = s.post(login_url, data=form_data, headers=headers)
     test_resp = s.get('https://www.hao4k.cn/k_misign-sign.html', headers=headers)
+    print("test_resp:",type(test_resp),"text:",test_resp)
     if username in test_resp.text:
         print('Login succeed!')
     else:
