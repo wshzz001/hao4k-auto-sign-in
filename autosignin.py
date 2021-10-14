@@ -6,9 +6,9 @@ import re
 username = os.environ["HAO4K_USERNAME"]
 password = os.environ["HAO4K_PASSWORD"]
 
-bot_token = os.environ["TG_BOT_TOKEN"]
-chat_id = os.environ["TG_CHAT_ID"]
-api_url = "https://api.telegram.org/bot%s/sendMessage" % (bot_token)
+#bot_token = os.environ["TG_BOT_TOKEN"]
+#chat_id = os.environ["TG_CHAT_ID"]
+#api_url = "https://api.telegram.org/bot%s/sendMessage" % (bot_token)
 send_message = "Server ERROR"
 
 user_url = "https://www.hao4k.cn/member.php?mod=logging&action=login&phonelogin=no"
