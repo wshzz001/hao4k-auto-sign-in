@@ -8,7 +8,7 @@ name: CI
 on:
   push:
     branches: 
-      - master
+      - wshzz001-patch-1
   schedule:
     - cron: '0 23 * * *'
 
