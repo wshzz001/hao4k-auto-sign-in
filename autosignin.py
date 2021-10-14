@@ -62,8 +62,11 @@ if __name__ == "__main__":
         send_message = signin_log
         print(signin_log)
     params = {'chat_id': chat_id,'text': send_message}
+#
+'''
     r = requests.get(api_url, params=params)
     if r.status_code == requests.codes.ok:
         print("签到消息已发送至我的Telegram Bot。")
     else:
         print(r.status_code)
+'''        
