@@ -57,6 +57,7 @@ def run(form_data):
 
 
 if __name__ == "__main__":
+    print("username:",username)
     signin_log = run(form_data)
     if signin_log is None:
         send_message = "hao4K每日签到成功！"
